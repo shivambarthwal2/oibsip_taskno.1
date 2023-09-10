@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,800&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:aliceblue;
+  background-image: url('4.jpg');
+  
+}
+
+.header {
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  background-image: url('pexels-blaz-erzetic-2426085.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(49, 47, 47);
+  background-blend-mode:multiply;
+}
+.header h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+
+  
+}
+.header p {
+  font-size: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+  justify-content: space-between;
+  background-color: aliceblue;
+  background-image: url('2.jpg');
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 3rem;
+  background-color: rgb(110, 108, 108);
+  background-blend-mode:multiply;
+}
+
+
+
+
+.box {
+  background: transparent;
+  flex-basis: 48%;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(169, 113, 113, 0.1);
+  box-sizing: border-box;
+  border-radius: 1rem;
+  
+  
+}
+.box h2{
+  color: white;
+}
+.box h2:hover{
+  font-size: 2rem;
+  transition: ease-in 400ms;
+}
+.box p{
+  color: white;
+}
+.box:hover{
+  background-color:black;
+  transition: ease-in-out 400ms;
+}
+
+
+
+.subsection {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color:rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.subsection h3{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.subsection h3:hover{
+  font-size: 2rem;
+  transition: ease-in 400ms;
+}
+.subsection  p{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+
+ .social-icons {
+  text-align: center;
+  margin: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 20px;
+  width: 40px; 
+  height: 40px; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+.social-icons a[href^="https://www.facebook.com"] {
+  background-image: url('8.png'); 
+}
+
+.social-icons a[href^="https://www.youtube.com"] {
+  background-image: url('9.png'); 
+}
+
+.social-icons a[href^="https://www.instagram.com"] {
+  background-image: url('6.png'); 
+}
+
+.social-icons a:hover {
+  transform: scale(1.1); 
+} 
+.footer{
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.footer p{
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+
